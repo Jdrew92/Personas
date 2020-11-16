@@ -34,9 +34,11 @@ public class MainActivity extends AppCompatActivity {
                     case 0:
                         //Donde estoy, para donde voy
                         intent = new Intent(MainActivity.this, CreatePerson.class);
+                        startActivity(intent);
                         break;
                     case 1:
                         intent = new Intent(MainActivity.this, ListPeople.class);
+                        startActivity(intent);
                         break;
                 }
             }
