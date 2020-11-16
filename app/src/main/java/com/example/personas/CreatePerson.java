@@ -71,8 +71,6 @@ public class CreatePerson extends AppCompatActivity {
             lastName.requestFocus();
             return false;
         }
-        else{
-            return true;
-        }
+        return true;
     }
 }

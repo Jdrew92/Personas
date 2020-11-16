@@ -15,7 +15,7 @@
         <item>@string/list</item>
     </string-array>
     <string name="toast_person">Persona Guardada Exitosamente</string>
-    <string name="empty_dni">Ingrese la cédula</string>
-    <string name="empty_fname">Ingrese el nombre</string>
-    <string name="empty_lname">Ingrese el apellido</string>
+    <string name="empty_dni">Digite la cédula</string>
+    <string name="empty_fname">Digite el nombre</string>
+    <string name="empty_lname">Digite el apellido</string>
 </resources>
