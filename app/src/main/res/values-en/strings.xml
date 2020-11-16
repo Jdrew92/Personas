@@ -11,4 +11,8 @@
     <string name="number">N.</string>
     <string name="create">CREATE</string>
     <string name="list">LIST</string>
+    <string name="toast_person">Data Saved Succesfully</string>
+    <string name="empty_dni">Type in the DNI</string>
+    <string name="empty_fname">Type in the first name</string>
+    <string name="empty_lname">Type in the last name</string>
 </resources>

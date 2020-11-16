@@ -50,6 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="save"
             android:text="@string/btn_save" />
 
         <Button
@@ -57,6 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="clean"
             android:text="@string/btn_clean" />
     </LinearLayout>
 </LinearLayout>
