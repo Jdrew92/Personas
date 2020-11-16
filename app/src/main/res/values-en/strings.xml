@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Personas</string>
+    <string name="title_create_person">CREATE PERSON</string>
+    <string name="dni">DNI</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="btn_save">SAVE</string>
+    <string name="btn_clean">CLEAN</string>
+    <string name="title_list_people">LIST PEOPLE</string>
+</resources>
