@@ -8,4 +8,10 @@
     <string name="btn_clean">LIMPIAR</string>
     <string name="title_list_people">LISTAR PERSONAS</string>
     <string name="number">No.</string>
+    <string name="create">CREAR</string>
+    <string name="list">LISTAR</string>
+    <string-array name="options">
+        <item>@string/create</item>
+        <item>@string/list</item>
+    </string-array>
 </resources>

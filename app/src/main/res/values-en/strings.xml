@@ -8,4 +8,7 @@
     <string name="btn_save">SAVE</string>
     <string name="btn_clean">CLEAN</string>
     <string name="title_list_people">LIST PEOPLE</string>
+    <string name="number">N.</string>
+    <string name="create">CREATE</string>
+    <string name="list">LIST</string>
 </resources>
