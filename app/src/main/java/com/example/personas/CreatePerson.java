@@ -8,9 +8,12 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.util.Random;
+
 public class CreatePerson extends AppCompatActivity {
 
     private EditText dni, firstName, lastName;
+    private int fotos[];
 
 
     @Override
@@ -31,10 +34,14 @@ public class CreatePerson extends AppCompatActivity {
         ced = dni.getText().toString();
         nom = firstName.getText().toString();
         ape = lastName.getText().toString();
+        fotos = new int[3];
+        fotos[0] = R.drawable.images;
+        fotos[1] = R.drawable.images2;
+        fotos[2] = R.drawable.images3;
 
         if(validate(ced, nom, ape)) {
 
-            p = new Persona(nom, ape, ced);
+            p = new Persona(nom, ape, ced,fotoAleatoria());
             p.save();
             clean();
             InputMethodManager imm = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
@@ -72,5 +79,12 @@ public class CreatePerson extends AppCompatActivity {
             return false;
         }
         return true;
+    }
+
+    public int fotoAleatoria(){
+        int posFotoSel;
+        Random r = new Random();
+        posFotoSel= r.nextInt(fotos.length);
+        return fotos[posFotoSel];
     }
 }
