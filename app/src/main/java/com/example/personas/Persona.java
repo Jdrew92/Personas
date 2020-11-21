@@ -4,11 +4,13 @@ public class Persona {
     private String firstName;
     private String lastName;
     private String dni;
+    private int foto;
 
-    public Persona(String firstName, String lastName, String dni) {
+    public Persona(String firstName, String lastName, String dni, int foto) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.dni = dni;
+        this.foto = foto;
     }
 
     public String getFirstName() {
@@ -33,6 +35,14 @@ public class Persona {
 
     public void setDni(String dni) {
         this.dni = dni;
+    }
+
+    public int getFoto() {
+        return foto;
+    }
+
+    public void setFoto(int foto) {
+        this.foto = foto;
     }
 
     public void save(){
